@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Suporte — Controle TVDE</title>
+<style>
+  :root{ --bg:#fff; --ink:#111213; --muted:#6b6b6f; --line:#E8E8E9; --bg2:#FAFAFA; }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,-apple-system,system-ui,sans-serif;
+    -webkit-font-smoothing:antialiased;line-height:1.6}
+  .wrap{max-width:640px;margin:0 auto;padding:56px 20px 80px}
+  a{color:var(--ink)}
+  .back{display:inline-block;color:var(--muted);text-decoration:none;font-size:13px;margin-bottom:28px}
+  h1{font-size:24px;font-weight:700;letter-spacing:-.01em;margin:0 0 10px}
+  p.lede{color:var(--muted);font-size:14.5px;margin:0 0 32px;max-width:48ch}
+  .mail{display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:#fff;text-decoration:none;
+    font-size:14px;font-weight:600;padding:12px 20px;border-radius:999px;margin-bottom:44px}
+  h2{font-size:15px;font-weight:600;margin:0 0 6px}
+  .faq{border-top:1px solid var(--line)}
+  .faq details{border-bottom:1px solid var(--line);padding:16px 0}
+  .faq summary{font-size:14.5px;font-weight:600;cursor:pointer;list-style:none}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{content:"+";float:right;color:var(--muted);font-weight:400}
+  .faq details[open] summary::after{content:"–"}
+  .faq p{font-size:14px;color:#2b2c2e;margin:10px 0 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="index.html">← Controle TVDE</a>
+  <h1>Suporte</h1>
+  <p class="lede">Dúvida, sugestão ou algo não funcionou como esperado? Escreva pra gente.</p>
+  <a class="mail" href="mailto:douglasantos077@gmail.com">douglasantos077@gmail.com</a>
+
+  <div class="faq">
+    <details>
+      <summary>Onde ficam guardados os meus dados?</summary>
+      <p>Só no seu aparelho. O Controle TVDE não tem servidor nem conta — faturamento, despesas e configurações ficam salvos localmente no iOS.</p>
+    </details>
+    <details>
+      <summary>Troquei de aparelho — como levo meus dados comigo?</summary>
+      <p>Use "Exportar" nos Ajustes pra gerar um ficheiro de backup, e "Importar" no aparelho novo pra carregar os dados de volta.</p>
+    </details>
+    <details>
+      <summary>Como funciona a meta semanal?</summary>
+      <p>Você cadastra as suas despesas (negócio e pessoais) e escolhe o modo de cálculo nos Ajustes — lucro sobre gastos, renda líquida fixa ou margem. O app soma tudo, aplica a reserva fiscal e mostra quanto precisa faturar na semana pra cobrir os seus custos e obrigações.</p>
+    </details>
+    <details>
+      <summary>Encontrei um bug ou o app travou — o que faço?</summary>
+      <p>Mande um e-mail contando o que estava a fazer quando aconteceu, e se possível um print da tela. Ajuda bastante a resolver rápido.</p>
+    </details>
+  </div>
+</div>
+</body>
+</html>
